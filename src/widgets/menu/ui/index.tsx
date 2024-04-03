@@ -22,7 +22,7 @@ export const Menu = () => {
                 onClick={(e) => {
                   e.stopPropagation();
                 }}
-                className="w-full text-right"
+                className="w-full text-left"
               >
                 Корзина
               </button>
@@ -32,7 +32,7 @@ export const Menu = () => {
                 onClick={(e) => {
                   e.stopPropagation();
                 }}
-                className="w-full text-right"
+                className="w-full text-left"
               >
                 Товары
               </button>

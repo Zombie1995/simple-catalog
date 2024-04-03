@@ -8,7 +8,7 @@ interface Props {
 export const ProductsList = ({ products }: Props) => {
   return (
     <div>
-      <div className="grid grid-cols-[repeat(auto-fit,_40%)] m-auto p-3 justify-center gap-5">
+      <div className="grid md:grid-cols-[repeat(auto-fit,_20%)] grid-cols-[repeat(auto-fit,_40%)] m-auto p-3 justify-center gap-5">
         {products.map((el) => (
           <ProductCard key={el.id} product={el} />
         ))}
