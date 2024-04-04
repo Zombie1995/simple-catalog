@@ -21,10 +21,9 @@ const Products = observer(() => {
       <p className="min-h-[60px] h-[60px] flex justify-center items-center text-[24px]">
         Товары
       </p>
-      <div className="m-4">
-        <div className="flex justify-center">
-          <Search products={productStore.products} setProducts={setProducts} />
-        </div>
+      <div className="h-[8px]" />
+      <Search products={productStore.products} setProducts={setProducts} />
+      <div>
         {productStore.loading ? (
           <p className="text-center">Товары загружаются</p>
         ) : (

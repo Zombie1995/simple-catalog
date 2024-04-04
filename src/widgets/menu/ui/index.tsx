@@ -16,7 +16,7 @@ export const Menu = () => {
       </button>
       {showMenu && (
         <>
-          <div className="z-[100] flex flex-col h-[120px] w-[150px] gap-2 bg-white p-3 rounded-md ring-2 ring-[rgba(231,234,241,0.2)] ring-offset-2 ring-offset-[rgba(231,234,241,0.2)]">
+          <div className="z-[200] flex flex-col h-[120px] w-[150px] gap-2 bg-white p-3 rounded-md ring-2 ring-[rgba(231,234,241,0.2)] ring-offset-2 ring-offset-[rgba(231,234,241,0.2)]">
             <a href="/cart">
               <button
                 onClick={(e) => {

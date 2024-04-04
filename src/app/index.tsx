@@ -6,7 +6,7 @@ import "./index.css";
 const App = () => {
   return (
     <div>
-      <div className="fixed right-3 top-3">
+      <div className="z-[100] fixed right-3 top-3">
         <Menu />
       </div>
       <RouterProvider router={router} />
